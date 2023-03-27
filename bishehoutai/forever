@@ -1,0 +1,7 @@
+cd 你的项目路径
+forever start -a bin/www
+forever start -a app.js
+
+cd 你的项目路径
+forever stop -a bin/www
+forever stop -a app.js
